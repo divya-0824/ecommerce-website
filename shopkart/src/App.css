@@ -1,5 +1,5 @@
 
-/* General layout */
+
 .page-container {
   width: min(1200px, calc(100% - 40px));
   margin: 0 auto;
@@ -73,7 +73,7 @@
   margin-top: 16px;
 }
 
-/* Navbar */
+
 .navbar {
   background: var(--header);
   color: white;
@@ -129,7 +129,7 @@
   font-size: 11px;
 }
 
-/* Buttons */
+
 .primary-button,
 .secondary-button {
   min-height: 44px;
@@ -190,7 +190,7 @@
   text-decoration: underline;
 }
 
-/* Search and filters */
+
 .search-box {
   display: flex;
   align-items: center;
@@ -330,7 +330,7 @@
   min-height: 42px;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  /* -webkit-line-clamp: 2; */
+ 
   line-height: 1.5;
   font-size: 14px;
   font-weight: 700;
@@ -397,7 +397,7 @@
   color: #c2410c;
 }
 
-/* Quantity controls */
+
 .quantity-control {
   display: inline-flex;
   align-items: center;
@@ -426,7 +426,6 @@
   font-weight: 700;
 }
 
-/* Product details */
 .breadcrumb {
   margin: 0 0 28px;
   color: var(--muted);
@@ -534,7 +533,7 @@
   line-height: 1.8;
 }
 
-/* Cart */
+
 .cart-heading {
   align-items: center;
 }
@@ -598,7 +597,7 @@
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  /* -webkit-line-clamp: 2; */
+
   font-size: 13px;
   font-weight: 700;
   line-height: 1.6;
@@ -694,7 +693,7 @@
   font-size: 11px;
 }
 
-/* Responsive */
+
 @media (max-width: 1000px) {
   .products-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
